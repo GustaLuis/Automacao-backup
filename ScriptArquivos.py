@@ -48,4 +48,5 @@ with open(log_origem, "w", encoding="utf-8") as log_from, open(log_destino, "w",
                 log_to.write(f"Modificado em: {data_modificacao}\n")
                 log_to.write(f"Copiado para: {caminho_destino}\n\n")
 
-                print(f"📁 Arquivo copiado: {nome_arquivo}")
+
+                print(f"Arquivo copiado: {nome_arquivo}")
